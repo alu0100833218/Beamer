@@ -1,0 +1,152 @@
+\documentclass{beamer}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+
+\title[Prensentación sobre $\pi$ en Beamer]{El número $\pi$}
+\author[D. Montesdeoca]{David Tomás Montesdeoca Flores}
+\date[23/04/14]{23 de abril de 2014}
+\usetheme{Madrid}
+
+
+\begin{document}
+
+\begin{frame}
+\titlepage
+\end{frame}
+
+\begin{frame}
+\frametitle{Indice}
+\tableofcontents[pausesections]
+
+\end{frame}
+
+\section{Definición}
+
+\begin{frame}
+\frametitle{Definición}
+El número $\pi$ es la relación existente entre el diámetro de la circunferencia con su longitud.
+Es un número irracional de los más importantes usados en las ciencias matemáticas, como la física, las ingenierías y las propias matemáticas.
+
+El valor que toma esta constante es aproximadamente:
+ $$\pi = 3.14159265358979323846...$$ 
+
+Como hemos visto en prácticas anteriores, este se puede calcular mediante integración:
+
+$$\int_{0}^{1} \! \frac{4}{1+x^2}\, dx = 4(atan(1) -atan(0)) = \pi $$
+\end{frame}
+
+\section{Historia del Cálculo del número $\pi$}
+
+\begin{frame}
+\frametitle{Historia del Cálculo del número $\pi$}
+El cálculo del número $\pi$ a lo largo de la historia ha sido una ardua tarea para los cientificos que han llevado a cabo sus aproximaciones.
+
+Algunas de sus aproximaciones a lo largo de la historia más importantes han tenido lugar en:
+
+\begin{itemize}
+  \item El Antiguo Egipto.
+  \pause
+  \item La Antigüedad Clásica (Grecia y Roma).
+  \pause
+  \item Mesopotamia.
+  \pause
+  \item La India.
+  \pause
+  \item China.
+  \pause
+  \item Europa.
+  \pause
+  \item Persia.
+  \pause
+\end{itemize}
+
+En la época actual el mayor numero de decimales obtenido se llevó  a cabo por Shigeru Kondo, obteniendo 10.000.000.000.000 cifras.
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Historia del Cálculo del número $\pi$}
+\begin{block}{Tabla de decimales obtenidos}
+\begin{table}{}
+\begin{tabular}{lrcl}
+Año   &  Nombre       &  Ordenador &  Número de decimales \\ \hline
+1949  &  Reitwiesner  &  ENIAC     &  2.037  \\ \hline
+1959  &  Guilloud     &  IBM 704   &  16.167  \\ \hline
+1986  &  Bailey       &  CRAY-2    &  29.360.111 \\ \hline
+2011  &  Kondo        &            &  10.000.000.000.000 \\ \hline
+\end{tabular}
+\end {table}
+\end{block}
+\end{frame}
+
+\section{Algunas fórmulas que contienen el número $\pi$}
+\subsection{Geometría} 
+
+\begin{frame}
+\frametitle{Algunas fórmulas que contienen el número $\pi$} 
+
+\begin{block}{Geometría}
+
+\begin{itemize}
+
+  \item Longitud de la circunferencia.
+  \pause
+  \item Área del círculo.
+  \pause
+  \item Área interior de la elipse.
+  \pause
+  \item Área del cono.
+  \pause
+  \item Área de la esfera.
+
+\end{itemize}
+\end{block}
+
+\end{frame}
+
+\subsection{Análisis}
+\begin{frame}
+\frametitle{Algunas fórmulas que contienen el número $\pi$}
+\begin{block}{Análisis}
+\begin{itemize}
+  \item Fórmula de Leibniz.
+  \pause
+  \item Producto de Wallis.
+  \pause
+  \item Fórmula de Euler.
+  \pause
+  \item Fórmula de Stirling.
+  \pause
+  \item Método de Montecarlo
+
+\end{itemize}
+\end{block}
+
+\end{frame}
+
+\subsection{Cálculo} 
+\begin{frame}
+
+\begin{block}{Cálculo}
+\begin{itemize}
+  \item Área limitada por la astroide: $\frac{3}{8}\pi a^2 $.
+  \pause
+
+  \item Área de la región comprendida por el eje X y un arco de la cicloide: $3 \pi a^2.$
+
+\end{itemize}
+\end{block}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Bibliografía}
+\begin{thebibliography}
+  \beamertermplatebookbibitems
+  \bibitem[Guía docente]{guia}
+  {\small $http//www.wikipedia.com$}
+\end{thebibliography}
+\end{frame}
+
+\end{document}
